@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use("/home", (req,res) => {
     res.json({
-        msg:"Hi Welcome to Simulanis-- after github ci cd pipeline"
+        msg:"Hi Welcome to Simulanis-- deploying Application after github Action ci cd pipeline"
     })
 })
 
